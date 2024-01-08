@@ -3,6 +3,6 @@ module com.example.sussypig {
     requires javafx.fxml;
 
 
-    opens com.example.sussypig to javafx.fxml;
-    exports com.example.sussypig;
+    opens com.pigrat.stoleurdata to javafx.fxml;
+    exports com.pigrat.stoleurdata;
 }

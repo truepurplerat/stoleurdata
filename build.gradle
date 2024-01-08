@@ -6,7 +6,7 @@ plugins {
     id 'org.beryx.jlink' version '2.25.0'
 }
 
-group 'com.example'
+group 'com.pigrat'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -25,8 +25,8 @@ tasks.withType(JavaCompile) {
 }
 
 application {
-    mainModule = 'com.example.sussypig'
-    mainClass = 'com.example.sussypig.HelloApplication'
+    mainModule = 'com.pigrat.stoleurdata'
+    mainClass = 'com.pigrat.stoleurdata.Main'
 }
 
 javafx {
