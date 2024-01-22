@@ -1,16 +1,25 @@
 package com.pigrat.stoleurdata;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.text.Text;
 
 public class MainController {
     @FXML
-    private Label welcomeText;
+    private TextField namefield;
     @FXML
-    private Label luki;
+    private TextField agefield;
+    @FXML
+    private TextField genderfield;
+    @FXML
+    private Label braun;
 
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    protected void signin() {
+        System.out.println("WE NOW HAV UR DATA HIHIHIHI");
+        braun.setText("You are now signed in");
+
     }
 }
