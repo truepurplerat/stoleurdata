@@ -18,8 +18,12 @@ public class MainController {
 
     @FXML
     protected void signin() {
-        System.out.println("WE NOW HAV UR DATA HIHIHIHI");
         braun.setText("You are now signed in");
+        DataManager.save("Deez nuts");
+    }
 
+    @FXML
+    protected void test() {
+        braun.setText(DataManager.load());
     }
 }

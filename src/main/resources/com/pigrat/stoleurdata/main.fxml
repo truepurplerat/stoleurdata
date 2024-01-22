@@ -6,7 +6,6 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.text.Text?>
 <VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.pigrat.stoleurdata.MainController">
     <padding>
@@ -20,7 +19,5 @@
     <TextField fx:id="genderfield"/>
     <Label fx:id="braun"/>
     <Button onAction="#signin" text="Sign in"/>
-
-
-
+    <Button onAction="#test" text="Test"/>
 </VBox>
