@@ -18,6 +18,12 @@ public class MainController {
 
     @FXML
     protected void signin() {
+        var age= Integer.parseInt(agefield.getText());
+        var user=new User(namefield.getText(),age, genderfield.getText());
         braun.setText("You are now signed in");
+        genderfield.setText("");
+        namefield.setText("");
+        agefield.setText("");
+        System.out.println(user);
     }
 }
