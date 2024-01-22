@@ -19,5 +19,4 @@
     <TextField fx:id="genderfield"/>
     <Label fx:id="braun"/>
     <Button onAction="#signin" text="Sign in"/>
-    <Button onAction="#test" text="Test"/>
 </VBox>
