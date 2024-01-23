@@ -2,10 +2,10 @@ package com.pigrat.stoleurdata;
 
 public class User {
     public String name;
-    public Integer age;
+    public int age;
     public String gender;
 
-    User(String name, Integer age, String gender) {
+    User(String name, int age, String gender) {
         this.name = name;
         this.gender = gender;
         this.age = age;
