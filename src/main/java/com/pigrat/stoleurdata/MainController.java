@@ -25,5 +25,14 @@ public class MainController {
         namefield.setText("");
         agefield.setText("");
         System.out.println(user);
+        DataManager.saveUser(user);
+    }
+    @FXML
+    protected void load() {
+        var user= DataManager.loadUser();
+        System.out.println(user);
+        namefield.setText(user.name);
+        agefield.setText(String.valueOf(user.age));
+        genderfield.setText(user.gender);
     }
 }
